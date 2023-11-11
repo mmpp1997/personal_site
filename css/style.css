@@ -1,0 +1,86 @@
+body > *{
+  font-family: sans-serif
+}
+body {
+  margin: 0px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 25px auto 10px;
+  height: 100vh;
+}
+.header {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  background-color: #2196f3;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  gap: 10px;
+  height: 25px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  background-color: #2196f3;
+  margin: 0px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.atme {
+  margin: 0px;
+  font-size: 15px;
+  text-align: center;
+  color: blanchedalmond;
+}
+.about-me {
+  text-align: left;
+  width: 300px;
+  margin: 20px;
+}
+.picture > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.link {
+  font-size: 15px;
+  text-align: center;
+  color: blanchedalmond;
+}
+a {
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  color: blanchedalmond;
+}
+.logo {
+  text-align: left;
+  font-size: 20px;
+  
+}
+@media only screen and (max-width: 500px) {
+  .about-me {
+    text-align: left;
+    width: 200px;
+    margin: 20px;
+  }
+  .header {
+    height: 50px;
+  }
+  .grid-container {
+    grid-template-rows: 50px auto 10px;
+  }
+}
+.linked{
+  color: black;
+}

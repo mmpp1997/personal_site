@@ -1,0 +1,44 @@
+body > *{
+    font-family: sans-serif
+}
+.main-exp{
+    display: grid;
+    grid-template-rows: 50px auto;
+    align-content: center;
+}
+h2{
+    color: #2196f3;
+    margin: 10px;
+    padding: 0px;
+    text-align: left;
+    padding-left: 1.5%;
+}
+.exp-flex{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+.jobs{
+    margin: 20px;
+}
+ul {
+    padding-left: 10px;
+}
+.jobs > p{
+    width: 300px;
+}
+li{
+    font-size: 15px;
+}
+.school{
+    width: 300px;
+    margin-bottom: 30px;
+}
+.school > p{
+    color: #2196f3;
+    font-size: larger;
+}
+.school > ul > li {
+    font-size: small;
+}
